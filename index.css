@@ -1,0 +1,35 @@
+header{
+  background-color: rgb(227, 222, 150);
+  font-family: 'Chicle', cursive;
+}
+.heading{
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+}
+.conteiner1{
+display: flex;
+justify-content: center;
+}
+.item1{
+  color:rgb(52, 4, 42);
+}
+.conteiner2{
+  display: flex;
+  justify-content: space-around;
+}
+.item2{
+  color: rgb(52, 4, 42);
+}
+.conteiner3{
+  display: flex;
+  justify-content: center;
+}
+.item3{
+  color: rgb(52, 4, 42);
+}
+footer{
+  background-color: rgb(227, 222, 150);
+  font-family: 'Chicle', cursive;
+  text-align: center;
+}

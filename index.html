@@ -2,42 +2,59 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Chicle" rel="stylesheet">
     <title>Calculator</title>
   </head>
   <body>
-    <h2>Calculator</h2>
+    <header>
+      <div class="heading">
+          <h2>Calculator</h2>
+      </div>
+    </header><br><br><br>
 
+
+  <div class="conteiner1">
     <section>
-      <input type="text" id="kolom1" name="kolom1" value="" placeholder="insert first number">+
-      <input type="text" id="kolom2" name="kolom2" value="" placeholder="insert second number">
-      <h3>Output :</h3>
-      <p id="addoutput"></p>
+      <input type="text" class="item1" id="kolom1" name="kolom1" value="" placeholder="insert first number">+
+      <input type="text" class="item1" id="kolom2" name="kolom2" value="" placeholder="insert second number">
+      <button  onclick="CalculatorAdd()" class="item1" type="button" name="button">=</button>
+      <h3 class="item1">Output :</h3>
+      <p class="item1" id="addoutput"></p>
     </section> <br> <br>
+  </div><br><br>
 
+<div class="conteiner2">
+  <section>
+    <input type="text" class="item2" id="kolom3" name="kolom3" value="" placeholder="insert first number">*
+    <input type="text" class="item2" id="kolom4" name="kolom4" value="" placeholder="insert second number">
+    <button  onclick="Calculatormultiply()" class="item2" type="button" name="button">=</button>
+    <h3 class="item2">Output :</h3>
+    <p class="item2" id="mutoutput"></p>
+  </section> <br><br><br>
 
-    <section>
-      <input type="text" id="kolom3" name="kolom3" value="" placeholder="insert first number">*
-      <input type="text" id="kolom4" name="kolom4" value="" placeholder="insert second number">
-      <h3>Output :</h3>
-      <p id="mutoutput"></p>
-    </section> <br><br>
+  <section>
+    <input type="text" class="item2" id="kolom5" name="kolom5" value="" placeholder="insert first number">/
+    <input type="text" class="item2" id="kolom6" name="kolom6" value="" placeholder="insert second number">
+    <button  onclick="Calculatordivide()" class="item2" type="button" name="button">=</button>
+    <h3 class="item2">Output :</h3>
+    <p class="item2" id="divoutput"></p>
+  </section><br><br>
+</div><br><br><br>
 
-    <section>
-      <input type="text" id="kolom5" name="kolom5" value="" placeholder="insert first number">/
-      <input type="text" id="kolom6" name="kolom6" value="" placeholder="insert second number">
-      <h3>Output :</h3>
-      <p id="divoutput"></p>
-    </section><br><br>
-
-    <section>
-      <input type="text" id="kolom7" name="kolom7" value="" placeholder="insert first number">-
-      <input type="text" id="kolom8" name="kolom8" value="" placeholder="insert second number">
-      <h3>Output :</h3>
-      <p id="suboutput"></p>
-    </section><br><br>
-
-
-
+<div class="conteiner3">
+  <section>
+    <input type="text" class="item3" id="kolom7" name="kolom7" value="" placeholder="insert first number">-
+    <input type="text" class="item3" id="kolom8" name="kolom8" value="" placeholder="insert second number">
+    <button  onclick="Calculatorsubstrack()" class="item3" type="button" name="button">=</button>
+    <h3 class="item3">Output :</h3>
+    <p class="item3" id="suboutput"></p>
+  </section><br><br>
+</div><br><br><br>
+<footer>
+  <p><b><i>Create by DGR</i><b></p>
+</footer>
     <script src="./dom.js" type="text/javascript"></script>
   </body>
 </html>
